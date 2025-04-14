@@ -1,0 +1,47 @@
+
+ body {
+    background-color: #e9ecef;
+}
+.addBook{
+    width: 1400px;
+    margin-left: 20px;
+    background-color: #3498DB;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.Title{
+    background-color: #2D2350;
+    color: white;
+    height: 100px;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 25px;
+}
+.form-text{
+    color: red;
+}
+.table-header > tr > th{
+   text-align: center;
+}
+.form-control{
+    width: 662px;
+    margin: 0;
+    right: 10px;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+.form-text{
+    margin-left: 585px;
+}
+.input-group mb-4{
+    left: 50px;
+
+}
+.Buttons{
+    text-align: center;
+}
