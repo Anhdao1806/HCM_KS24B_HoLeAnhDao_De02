@@ -63,15 +63,7 @@ function resetForm() {
     nutThem.textContent = "Thêm sách";
 }
 nutThem.addEventListener("click", themHoacCapNhat);
-bang.addEventListener("click", (event) => {
-    const button = event.target;
-    if (button.dataset.sua !== undefined) {
-        sua(Number(button.dataset.sua));
-    }
-    if (button.dataset.xoa !== undefined) {
-        xoa(Number(button.dataset.xoa));
-    }
-});
+
 timKiem.addEventListener("input", () => {
     const tuKhoa = timKiem.value.toLowerCase();
     const ketQua = danhSach.filter(sach => sach.ten.toLowerCase().includes(tuKhoa));
